@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Trip to Malaysia",
+    "country": "Malaysia",
+    "date": "2025-11-19",
+    "note": "food haunting",
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "timezone": "UTC+08:00",
+    "population": 34231700,
+    "area": 330803,
+    "currencies": "Malaysian ringgit",
+    "languages": "English, Malay",
+    "map": "https://goo.gl/maps/qrY1PNeUXGyXDcPy6",
+    "flag": "https://flagcdn.com/w320/my.png",
+    "coat": "https://mainfacts.com/media/images/coats_of_arms/my.png"
+  }
+]

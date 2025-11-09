@@ -1,0 +1,15 @@
+{
+  "name": "world-explorer",
+  "version": "1.0.0",
+  "description": "World Explorer - Explore countries and manage travel itineraries",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Izzah",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^38.4.0"
+  },
+  "keywords": ["Electron", "World Explorer", "Travel", "OOP"]
+}

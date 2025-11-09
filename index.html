@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>World Explorer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <div class="brand">🌍 World Explorer</div>
+      <nav>
+        <button class="nav-btn" data-target="searchSection">Search</button>
+        <button class="nav-btn" data-target="itinerarySection">Itineraries</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="statusBar" class="status">Ready</div>
+
+    <!--  first page open -->
+    <section id="landingSection" class="section">
+      <div class="landing-card">
+        <h1>🌍 Welcome to World Explorer</h1>
+        <p>Plan your trips and explore countries around the world.</p>
+        <div class="landing-actions">
+          <button class="nav-btn" data-target="searchSection">Search Country</button>
+          <button class="nav-btn" data-target="itinerarySection">Manage Travel Plan</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="searchSection" class="section" style="display:none;">
+      <h2>Search Country</h2>
+      <div class="row">
+        <input id="countryInput" type="text" placeholder="Enter country name..." />
+        <button id="clearBtn">✕</button>
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <div id="history"></div>
+
+      <div class="search-info-block">
+        <h3>Country Info</h3>
+        <div id="countryInfo"></div>
+      </div>
+    </section>
+
+    <section id="itinerarySection" class="section" style="display:none;">
+      <h2>My Travel Itineraries</h2>
+      <div class="form row">
+        <input id="tripName" type="text" placeholder="Trip title">
+        <input id="tripCountry" type="text" placeholder="Country">
+        <input id="tripDate" type="date">
+        <input id="tripNote" type="text" placeholder="Notes (optional)">
+        <button id="addTripBtn">Add Trip</button>
+      </div>
+      <ul id="tripList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <small>Data file: <span id="filePath"></span></small>
+  </footer>
+
+  <!-- edit trip -->
+  <div id="editModal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <h3>Edit Trip</h3>
+      <input id="editTitle" type="text" placeholder="Trip title">
+      <input id="editDate" type="date">
+      <input id="editNote" type="text" placeholder="Notes">
+      <div class="modal-actions">
+        <button onclick="confirmEdit()">Save</button>
+        <button onclick="closeModal()">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
