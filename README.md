@@ -1,13 +1,19 @@
-# World Explorer
+# 🌍 World Explorer
 
-A desktop travel planning app built using Electron.js.
+A desktop travel planning application built with Electron.js.  
+It allows users to:
+- Search country information using the REST Countries API
+- Add, view, edit, and delete trips (CRUD)
+- Save trip data locally in JSON
+- View search history of previously searched countries
 
-## Features
-- Search for countries using REST Countries API
-- Add, view, edit, and delete travel itineraries
-- Save trips in local JSON file
-- Search history feature
+## 🧰 Tech Stack
+Electron.js, HTML, CSS, JavaScript, REST Countries API
 
-## How to Run
-1. Open the project folder.
-2. Run `npm start` to launch the app.
+## 🚀 How to Run
+1. Clone this repository
+2. Run `npm install` (if needed)
+3. Run the app: `npm start`
+
+## 🖼️ Screenshots
+(Insert your screenshots here)
