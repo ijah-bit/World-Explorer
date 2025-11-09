@@ -7,13 +7,11 @@ It allows users to:
 - Save trip data locally in JSON
 - View search history of previously searched countries
 
-## 🧰 Tech Stack
+## Tech Stack
 Electron.js, HTML, CSS, JavaScript, REST Countries API
 
-## 🚀 How to Run
+## How to Run
 1. Clone this repository
 2. Run `npm install` (if needed)
 3. Run the app: `npm start`
 
-## 🖼️ Screenshots
-(Insert your screenshots here)
